@@ -77,7 +77,7 @@ export const ClipContainer = () => {
 
     }, []);
 
-    const clipBlocks = clips.map((clip: ClipBlockProps) => <ClipBlock { ...clip } />);
+    const clipBlocks = clips?.map((clip: ClipBlockProps) => <ClipBlock { ...clip } />);
 
     return (
         <>
